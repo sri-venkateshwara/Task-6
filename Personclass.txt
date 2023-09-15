@@ -1,0 +1,16 @@
+3.class person{
+     
+   constructor(name,age,nationality,designation){
+         this.name = name;
+         this.age = age;
+         this.nationality = nationality;
+         this.designation = designation;
+     }
+     }
+ 
+ var a = new person("sri venkat","23","indian","software engineer");
+ 
+ console.log(a.name);
+ console.log(a.age);
+ console.log(a.nationality);
+ console.log(a.designation);
